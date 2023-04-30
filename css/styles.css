@@ -403,6 +403,18 @@ address {
     fill: #8E8F99;
 }
 
+.customers-item:hover,
+.customers-item:focus,
+.customers-icon:hover,
+.customers-icon:focus {
+    fill: #404BBF;
+}
+
+.customers-item:hover,
+.customers-item:focus {
+    border: 1px solid #404BBF;
+}
+
 /* FOOTER */
 
 .footer {
@@ -461,6 +473,17 @@ address {
     border-radius: 50%;
 }
 
+.socials-item:hover,
+.socials-item:focus,
+.socials-item-team:hover,
+.socials-item-team:focus {
+    background-color: #404BBF;
+}
+
+.socials-item:active {
+    background-color: #31D0AA;
+}
+
 .socials-link {
     display: flex;
     justify-content: center;
@@ -468,8 +491,6 @@ address {
 }
 
 .socials-icon {
-    /* height: 24px;
-    width: 24px; */
     border-radius: 0px;
     fill: #F4F4FD;
 }
@@ -545,9 +566,8 @@ address {
     width: calc((100% - 48px) / 3);
 }
 
-.portfolio-item:hover {
-    background: #FFFFFF;
-    border: 1px solid #F4F4FD;
+.portfolio-item:hover,
+.portfolio-item:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -583,7 +603,7 @@ address {
 .main-menu-link:focus,
 .contacts:hover,
 .contacts:focus {
-    color: #404bbf;
+    color: #404BBF;
 }
 
 .main-section,
