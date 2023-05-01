@@ -408,18 +408,18 @@ address {
     color: var(--icon-color);
 }
 
-.customers-icon {
-    fill: currentColor;
-}
-
 .customers-link:hover,
 .customers-link:focus {
     border: 1px solid #404BBF;
 }
 
-.customers-item:hover .customers-icon,
-.customers-item:focus .customers-icon {
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon {
     fill: #404BBF;
+}
+
+.customers-icon {
+    fill: currentColor;
 }
 
 /* FOOTER */
