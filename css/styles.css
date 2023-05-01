@@ -411,10 +411,6 @@ address {
 .customers-link:hover,
 .customers-link:focus {
     border: 1px solid #404BBF;
-}
-
-.customers-link:hover .customers-icon,
-.customers-link:focus .customers-icon {
     color: #404BBF;
 }
 
