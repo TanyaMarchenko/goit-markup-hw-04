@@ -415,7 +415,7 @@ address {
 
 .customers-link:hover .customers-icon,
 .customers-link:focus .customers-icon {
-    fill: #404BBF;
+    color: #404BBF;
 }
 
 .customers-icon {
